@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UI Card</title>
+</head>
+<style>
+body{
+  margin: 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f3f1f1;
+
+}
+/* sticky nav */
+nav{
+  background-color: rgb(217, 17, 17);
+  padding: 10px;
+  margin: 0px;
+  position: sticky;
+  top: 0px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav h3{
+  margin: 1px;
+    color: white; 
+  
+}
+nav a{
+  color: aliceblue;
+  margin: 5px;
+  text-decoration: underline;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+main{
+padding: 40px;
+
+}
+.card{
+
+  width: 300px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 10px;
+  margin: auto;
+  position: relative;
+  box-shadow: 0 3px;
+
+}
+.card img{
+  width: 100%;
+  border-radius: 10px;
+  height:318px;
+
+}
+.card h3 {
+  margin-top: 15px;
+  color: #bd081c;
+}
+.card p{
+  line-height: 1,6;
+}
+ .badge{
+      background-color:#bd081c;
+      color:white;
+
+      padding:6px 12px;
+
+      border-radius:5px;
+
+      position:absolute;
+
+      top:10px;
+      right:10px;
+    }
+
+    /* FAB */
+
+    .fab{
+      width:65px;
+      height:65px;
+
+      background-color:#bd081c;
+      color:white;
+
+      border-radius:50%;
+
+      display:flex;
+      justify-content:center;
+      align-items:center;
+
+      font-size:30px;
+      font-weight:bold;
+      text-decoration:none;
+
+      position:fixed;
+
+      bottom:20px;
+      right:20px;
+
+      box-shadow:0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    /* EXTRA SCROLL */
+
+    section{
+      height:1000px;
+    }
+
+</style>
+<body>
+  <!-- sticky navbar -->
+  <nav>
+    <h3>PINTEREST LOVER</h3>
+    <!-- NAVBAR PINTEREST LINK -->
+     <a href="https://in.pinterest.com/" target="_blank">OPEN</a>
+  </nav>
+  <main>
+<!-- card -->
+<div class="card">
+  <div class="badge">Trending</div>
+  <img src="background.jpg.jpg" alt="">
+
+  <h3>Spending Time on Pinterest</h3>
+  <p>
+     I love spending time on Pinterest because it gives me creative ideas,
+        aesthetic inspirations, fashion styles, room designs, and beautiful images.
+        It helps me relax and explore new trends every day.
+  </p>
+</div>
+
+
+
+  </main>
+<!-- FAB -->
+  <a href="https://www.pinterest.com" target="_blank" class="fab">
+    P 
+  </a>
+
+
+</body>
+
+</html>
